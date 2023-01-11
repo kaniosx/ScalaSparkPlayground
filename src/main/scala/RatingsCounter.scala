@@ -1,6 +1,5 @@
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
-import org.apache.spark.rdd.RDD
 
 object RatingsCounter {
   def main(array: Array[String]): Unit = {
